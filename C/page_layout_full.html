@@ -1,91 +1,171 @@
 <html>
 <head>
-<style>
-/* Write your code here */
-</style>
+  <style>
+  /* Write your code here */
+    body {
+      background-image: url(https://acemdia.com/content/uploads/2014/12/subtle-mosaic-pattern1.png);
+      margin: 0;
+      display: flex;
+    }
+    .container {
+      width: 600px;
+      margin: 0 auto;
+    }
+    .logo_part {
+      background-color: white;
+      display: flex;
+      padding-bottom: 5px;
+    }
+    .search {
+      margin: auto;
+    }
+    nav a:hover {
+      background-color: red;
+      color: white;
+    }
+    nav a {
+      color: black;
+      background-color: lightgrey;
+      font-size: 30px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      width: 150px;
+    }
+    .active {
+      background-color: red;
+      color: white;
+    }
+    .main_section {
+      background-color: white;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      box-sizing: border-box;
+      width: 150px;
+      border: 1px solid black;
+      border-radius: 4px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .title {
+      background-color: rgba(0, 0, 255, .4);
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;      
+    }
+    .description {
+      margin: 0 auto;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0 auto;
+    }
+    footer {
+      height: 50px;
+      background-color: black;
+      color: lightgrey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<header>
-  <nav>
-    <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
-  </nav>
-  <div class="logo_part">
-     <img src="http://via.placeholder.com/200x100"/>
-     <div class="search">
-       <input type="text"/>
-       <button>Search</button>
-     </div>
-  </div>
-</header>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+      </nav>
+      <div class="logo_part">
+        <img src="http://via.placeholder.com/200x100"/>
+        <div class="search">
+          <input type="text"/>
+          <button>Search</button>
+        </div>
+      </div>
+    </header>
 
-<section class="main_section">
-  <div class="cards">
-    <div class="card">
-      <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
-      </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
+    <section class="main_section">
+      <div class="cards">
         <div class="card">
-       <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
-      </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
+          <a href="#" class="title">Toyota Avensis</a>
+          <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+          
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
+            <div class="card">
+          <a href="#" class="title">Toyota Avensis</a>
+            <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
+            <div class="card">
+          <a href="#" class="title">Toyota Avensis</a>
+            <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+          
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
         <div class="card">
-      <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
-      </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
-    <div class="card">
-      <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
-      </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
+          <a href="#" class="title">Toyota Avensis</a>
+            <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+          
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
+            <div class="card">
+          <a href="#" class="title">Toyota Avensis</a>
+            <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+          
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
         <div class="card">
-      <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
+          <a href="#" class="title">Toyota Avensis</a>
+            <img src="http://via.placeholder.com/150x150"/>
+          <div class="description">
+          
+          </div>
+          <div class="price">
+            50.000$
+          </div>
+        </div>
       </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
-     <div class="card">
-      <a href="#" class="title">Toyota Avensis</a>
-        <img src="http://via.placeholder.com/150x150"/>
-      <div class="description">
-      
-      </div>
-      <div class="price">
-        50.000$
-      </div>
-    </div>
+    </section>
+    <footer>
+      @copy; 2017 Wheels.kz. All cars
+    </footer>
   </div>
-</section>
-<footer>
-  @copy; 2017 Wheels.kz. All cars
-</footer>
-</div>
+</body>
 </html>
 
